@@ -35,15 +35,21 @@ class MyApp extends StatelessWidget {
               ],
             ),
             Container(
+              padding: EdgeInsets.all(5),
               height: 150,
               width: 150,
               color: Colors.greenAccent,
               child: Icon(
                 Icons.home,
                 color: Colors.red,
-                size: 90,
+                size: 150,
               ),
-            )
+            ),
+            Image(
+                height: 50,
+                width: 50,
+                image: NetworkImage(
+                    'https://avatars.githubusercontent.com/u/57723319?v=4'))
           ],
         )),
       ),
